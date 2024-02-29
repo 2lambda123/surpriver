@@ -4,13 +4,13 @@
 2lambda123/surpriver is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [NumPy](http://www.numpy.org/) – Data Science Tools
-- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
 - [Matplotlib](http://matplotlib.org) – Charting Libraries
 - [Hyper](https://hyper.sh/) – Containers as a Service
+- [Zope](https://www.zope.org) – Web Servers
+- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- [NumPy](http://www.numpy.org/) – Data Science Tools
 - [SciPy](http://www.scipy.org) – Data Science Tools
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [Zope](https://www.zope.org) – Web Servers
 
 Full tech stack [here](/techstack.md)
 
@@ -21,13 +21,13 @@ Full tech stack [here](/techstack.md)
 2lambda123/surpriver is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
 - <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg' alt='Hyper'/> [Hyper](https://hyper.sh/) – Containers as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/6969/zopeHIres_400x400.jpg' alt='Zope'/> [Zope](https://www.zope.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/6969/zopeHIres_400x400.jpg' alt='Zope'/> [Zope](https://www.zope.org) – Web Servers
 
 Full tech stack [here](/techstack.md)
 
@@ -38,7 +38,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/surpriver](https://github.com/2lambda123/surpriver)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|43<br/>Tools used|01/09/24 <br/>Report generated|
+|43<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -163,7 +163,7 @@ Full tech stack [here](/techstack.md)
 |[cffi](https://pypi.org/project/cffi)|v1.14.2|09/08/20|Mohan Vashist |MIT|N/A|
 |[chardet](https://pypi.org/project/chardet)|v3.0.4|08/31/20|Tradytics |LGPL-2.1|N/A|
 |[constantly](https://pypi.org/project/constantly)|v15.1.0|09/08/20|Mohan Vashist |MIT|N/A|
-|[cryptography](https://pypi.org/project/cryptography)|v41.0.6|12/02/23|dependabot[bot] |BSD-3-Clause,Apache-2.0|N/A|
+|[cryptography](https://pypi.org/project/cryptography)|v41.0.6|12/02/23|dependabot[bot] |BSD-3-Clause,Apache-2.0|[CVE-2024-26130](https://github.com/advisories/GHSA-6vqw-3v5j-54x4) (High)<br/>[CVE-2023-50782](https://github.com/advisories/GHSA-3ww4-gg4f-jr7f) (High)<br/>[CVE-2024-0727](https://github.com/advisories/GHSA-9v9h-cgj8-h64p) (Moderate)|
 |[dateparser](https://pypi.org/project/dateparser)|v0.7.6|09/08/20|Mohan Vashist |BSD-3-Clause|N/A|
 |[hyperlink](https://pypi.org/project/hyperlink)|v20.0.1|09/08/20|Mohan Vashist |MIT|N/A|
 |[idna](https://pypi.org/project/idna)|v2.10|08/31/20|Tradytics |BSD-3-Clause|N/A|
@@ -180,7 +180,7 @@ Full tech stack [here](/techstack.md)
 |[pytz](https://pypi.org/project/pytz)|v2020.1|08/31/20|andrewcgreen |MIT|N/A|
 |[regex](https://pypi.org/project/regex)|v2020.7.14|09/08/20|Mohan Vashist |Python-2.0|N/A|
 |[requests](https://pypi.org/project/requests)|v2.31.0|12/12/23|dependabot[bot] |Apache-2.0|N/A|
-|[scikit-learn](https://pypi.org/project/scikit-learn)|v0.23.2|08/31/20|andrewcgreen |BSD-3-Clause|N/A|
+|[scikit-learn](https://pypi.org/project/scikit-learn)|v0.23.2|08/31/20|andrewcgreen |BSD-3-Clause|[CVE-2020-28975](https://github.com/advisories/GHSA-jxfp-4rvq-9h9m) (High)|
 |[six](https://pypi.org/project/six)|v1.15.0|08/31/20|Tradytics |MIT|N/A|
 |[tqdm](https://pypi.org/project/tqdm)|v4.48.2|08/31/20|andrewcgreen |MPL-2.0,MIT|N/A|
 |[txaio](https://pypi.org/project/txaio)|v20.4.1|09/08/20|Mohan Vashist |MIT|N/A|
